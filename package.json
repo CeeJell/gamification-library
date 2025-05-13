@@ -1,6 +1,5 @@
 {
-  "name": "@ceejell/gamification-library",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -23,7 +22,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
+  "name": "@ceejell/gamification-library",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/CeeJell"
   }
